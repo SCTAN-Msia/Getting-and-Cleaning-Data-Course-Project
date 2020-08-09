@@ -7,10 +7,10 @@ The goal is to prepare tidy data that can be used for later analysis.
 This repo consist of 
   1. A tidy data set
   2. A R script called run_TidyDatAnalysis.R that does the following.  
-      i) Merges the training and the test sets to create one data set.
-      ii) Extracts only the measurements on the mean and standard deviation for each measurement.
-     iii) Uses descriptive activity names to name the activities in the data set
-     iv) Appropriately labels the data set with descriptive variable names.
+      i) Merges the training and the test sets to create one data set.  
+      ii) Extracts only the measurements on the mean and standard deviation for each measurement.  
+     iii) Uses descriptive activity names to name the activities in the data set.  
+     iv) Appropriately labels the data set with descriptive variable names.  
      v) From the data set in step iv, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   3. a code book called CodeBook.md that describes the variables, the data, and any transformations or the work being performed to clean up the data. 
 
