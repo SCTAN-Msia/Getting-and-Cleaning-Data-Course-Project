@@ -78,7 +78,7 @@ tBodyGyroJerkMean
 
 __**For more information about this dataset contact: activityrecognition@smartlab.ws**__
 
-## Original data sources:  
+### Original data sources:  
 [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)  
 
 ## Final Tidy Data 
