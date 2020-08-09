@@ -81,7 +81,7 @@ __**For more information about this dataset contact: activityrecognition@smartla
 ## Original data sources:  
 [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)  
 
-Final Tidy Data 
-New set of Tidy and cleaned data set is produced by using the R cade named TidyDataCode.R, which is saved and named as TidyDataSet.txt.
+## Final Tidy Data 
+New set of Tidy and cleaned data set is produced by using the R cade named TidyDataCode.R, which is saved and named as TidyDataSet.txt.  
 TidyDataSet.txt contains 180 observations with 68 variables which only the measurements on the mean and standard deviation for each measurement.
 
