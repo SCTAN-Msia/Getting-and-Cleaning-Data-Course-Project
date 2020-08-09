@@ -15,15 +15,7 @@ This repo consist of
   3. a code book called CodeBook.md that describes the variables, the data, and any transformations or the work being performed to clean up the data. 
 
 ## Data Descriptions
-Human Activity Recognition Using Smartphones Dataset *Version 1.0* by 
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-[link](www.smartlab.ws)
-
-is use to demonstrate this analysis. Data is collected through a series of experiments to a group of 30 volunteers within an age bracket of 19-48 years by performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+Human Activity Recognition Using Smartphones Dataset *Version 1.0* by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Studi di Genova, is use to demonstrate this analysis. Data is collected through a series of experiments to a group of 30 volunteers within an age bracket of 19-48 years by performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 ## Original data sources:
 [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
