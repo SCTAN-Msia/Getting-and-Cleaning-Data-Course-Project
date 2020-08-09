@@ -6,9 +6,6 @@ R version 4.0.2 (2020-06-22)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 Running under: Windows 10 x64 (build 18362)
 
-## Original data sources:
-[link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
-
 ## Data Descriptions
 Human Activity Recognition Using Smartphones Dataset *Version 1.0*
 by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, Smartlab - Non Linear Complex Systems Laboratory, 
@@ -32,29 +29,7 @@ Feature Selection
 5. Magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).  
 6. A Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).  
 
-These signals were used to estimate variables of the feature vector for each pattern:    
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  
-
-tBodyAcc-XYZ  
-tGravityAcc-XYZ  
-tBodyAccJerk-XYZ  
-tBodyGyro-XYZ  
-tBodyGyroJerk-XYZ  
-tBodyAccMag  
-tGravityAccMag  
-tBodyAccJerkMag  
-tBodyGyroMag  
-tBodyGyroJerkMag  
-fBodyAcc-XYZ  
-fBodyAccJerk-XYZ  
-fBodyGyro-XYZ  
-fBodyAccMag  
-fBodyAccJerkMag  
-fBodyGyroMag  
-fBodyGyroJerkMag  
-
 The set of variables that were estimated from these signals are:  
-
 mean(): Mean value  
 std(): Standard deviation  
 mad(): Median absolute deviation   
@@ -73,14 +48,14 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
 angle(): Angle between to vectors.  
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
+Additional vectors: 
 gravityMean  
 tBodyAccMean  
 tBodyAccJerkMean  
 tBodyGyroMean  
 tBodyGyroJerkMean  
 
-The dataset includes the following files:  
+###The dataset includes the following files:  
 1.	'features_info.txt': Shows information about the variables used on the feature vector.  
 2.	'features.txt': List of all features.  
 3.	'activity_labels.txt': Links the class labels with their activity name.  
@@ -91,13 +66,15 @@ The dataset includes the following files:
 
 ###The following files are available for the train and test data. Their descriptions are equivalent. 
 1.	'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
-2.	'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.  Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and  'total_acc_z_train.txt' files for the Y and Z axis. 
+2.	'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.  
+     Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and  'total_acc_z_train.txt' files for the Y and Z axis. 
 3.	'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.   
 4.	'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.  
 
 ###Notes: 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  
 
 __**For more information about this dataset contact: activityrecognition@smartlab.ws**__
 
