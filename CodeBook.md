@@ -1,5 +1,5 @@
-# Name: Tan Siu Ching
-# Project Name: Getting-and-Cleaning-Data-Course-Project
+## CodeBook for Project Name: Getting-and-Cleaning-Data-Course-Project
+## Name: Tan Siu Ching
 
 ## Session Info
 R version 4.0.2 (2020-06-22)
