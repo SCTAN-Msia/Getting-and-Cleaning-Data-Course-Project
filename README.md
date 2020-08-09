@@ -1,8 +1,8 @@
 # Getting-and-Cleaning-Data-Course-Project
 ## Project Description
 A project to demonstrate my ability to collect, work with, and clean a data set.
-The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis. 
+
 ## Contents
 This repo consist of 
   1) A tidy data set
@@ -13,7 +13,6 @@ This repo consist of
       iv.Appropriately labels the data set with descriptive variable names.
       v.From the data set in step iv, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   3) a code book called CodeBook.md that describes the variables, the data, and any transformations or the work being performed to clean up the data. 
-
 
 ## Data Descriptions
 Human Activity Recognition Using Smartphones Dataset *Version 1.0* by 
